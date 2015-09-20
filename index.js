@@ -31,6 +31,8 @@ module.exports = function observPoll (observable, options, callback) {
   }
 
   function cancel () {
-    if (poller) poller.cancel()
+    if (!poller) return
+    poller.cancel()
+    poller = null
   }
 }
