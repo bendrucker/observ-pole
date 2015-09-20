@@ -1,7 +1,7 @@
 {
   "name": "observ-pole",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trigger polling via pole in response to observ changes",
   "license": "MIT",
   "repository": "bendrucker/observ-pole",
