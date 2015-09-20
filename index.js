@@ -5,10 +5,11 @@ var poll = require('pole')
 var watch = require('observ/watch')
 var nextTick = require('next-tick')
 var partial = require('ap').partial
+var Thunk = require('observ-thunk')
 
 module.exports = function observPoll (observable, options, callback) {
   var poller = null
-  nextTick(partial(watch, observable, onChange))
+  nextTick(partial(watch, observable, Thunk(onChange)))
 
   var DataEvent = Event()
   var ErrorEvent = Event()
