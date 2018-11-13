@@ -1,4 +1,4 @@
-# observ-pole [![Build Status](https://travis-ci.org/bendrucker/observ-pole.svg?branch=master)](https://travis-ci.org/bendrucker/observ-pole)
+# observ-pole [![Build Status](https://travis-ci.org/bendrucker/observ-pole.svg?branch=master)](https://travis-ci.org/bendrucker/observ-pole) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/observ-pole.svg)](https://greenkeeper.io/)
 
 > Trigger polling via [pole](https://github.com/bendrucker/pole) in response to observ changes
 
